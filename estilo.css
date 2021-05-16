@@ -1,0 +1,432 @@
+*{
+
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    font-family: arial;
+}
+
+.imagem1 {
+    width: 20px;
+    margin-left: 25px;
+    margin-top: 2px;
+}
+
+.imagem2 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 13px;
+    left: 10px;
+}
+
+.checkbox
+{
+    display: none;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    height: 60px;
+
+}
+
+.title {
+    margin-left: 15px;
+    color: grey;
+    margin-left: 60px;
+    }
+
+.pesquisar {
+    width: 200px;
+    height: 40px;
+    padding-left: 40px;
+    border-radius: 5px;
+    border: 1px solid #e3e3e3;
+    
+}
+
+.pesquisar2 {
+    position: relative;
+    
+}
+
+.caixa-grande {
+    margin-top: 70px;
+    margin-left: 100px;
+    margin-right: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.porcentagem-data {
+    width: 300px;
+    margin-right: 800px;
+}
+
+.dual {
+    align-items: center;
+    display: flex;
+}
+.espaco {
+    margin-right: 60px;
+    width: 60px;
+    height: 50px;
+
+}
+
+.espaco1 {
+    margin-right: 50px;
+    width: 60px;
+    height: 50px;   
+}
+
+.tipo {
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #e3e3e3;
+    width: 200px;
+    margin-right: 20px;
+}
+
+.data {
+    height: 43px;
+    border-radius: 5px;
+    border: 1px solid #e3e3e3;
+    margin-left: 90px;
+    width: 150px;
+}
+
+.dual2 {
+    display: flex;
+
+}
+
+.grafico { 
+    margin-top: 30px;
+    height: 80px;
+    position: relative;
+    box-shadow: 0px 2px 6px 0px #ff8100;
+    border-radius: 6px;
+    width: 300px;
+    background: #ff8100;
+
+}
+
+.participantes {
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 80px;
+    position: relative;
+    box-shadow: 0px 2px 6px -3px black;
+    border-radius: 6px;
+    width: 300px;
+}
+
+.participantes2 {
+    height: 70px;
+    width: 200px;
+    padding-left: 80px;
+    
+}
+
+.grafico2 {
+    height: 70px;
+    width: 260px;
+}
+
+#Capa_1 {
+    position: absolute;
+    width: 40px;
+    height: 40px; 
+    top: 17px;   
+    left: 17px;
+}
+
+#Capa_2 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 17px;
+    left:15px;
+}
+
+.faturamento {
+    position: absolute;
+    top: 15px;
+    left: 90px;
+    color: white;
+}
+
+.faturamento2 {
+    position: absolute;
+    top: 40px;
+    left: 90px;
+    color: white;
+}
+
+.participantes-caixa {
+    position: absolute;
+    top: 15px;
+    left: 90px;
+    color: grey;
+}
+
+.participantes-caixa2 {
+    position: absolute;
+    top: 35px;
+    left:90px;
+    color: grey;
+}
+
+.faturamento-diario {
+    border-radius: 5px;
+    border: 1px solid #e3e3e3;
+    position: relative;
+    height: 300px;
+    margin-top: 30px;
+    box-shadow: 0px 2px 6px -3px black;
+}
+
+.faturamento-diario2 {
+    color:grey;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    
+}
+
+.n500, .n400, .n300, .n200, .n100 {
+    color: grey;
+}
+
+.n500 {
+    position: absolute;
+    top: 60px;
+    left: 30px;
+}
+
+.n400 {
+    position: absolute;
+    top: 110px;
+    left: 30px;
+}
+.n300 {
+    position: absolute;
+    top: 160px;
+    left: 30px;
+}
+.n200 {
+    position: absolute;
+    top: 210px;
+    left: 30px;
+}
+.n100 {
+    position: absolute;
+    top: 260px;
+    left: 30px;
+}
+
+.abr3, .abr4, .abr5, .abr6, .abr7, .abr8, .abr9 {
+    color: grey;
+    position: absolute;
+    top: 275px;
+}
+
+.abr3 {
+    left: 90px;
+}
+
+.abr4 {
+    left: 170px;
+}
+
+.abr5 {
+    left: 250px;
+}
+
+.abr6 {
+    left: 330px;
+}
+
+.abr7 {
+    left: 410px;
+}
+
+.abr8 {
+    left: 490px;
+}
+
+.abr9 {
+    left: 570px;
+}
+
+.linha-horizontal5 {
+    width: 535px;
+    border: 1px solid #e3e3e3;
+    position: absolute;
+    top: 65px;
+    left: 80px;
+}
+
+.linha-horizontal4 {
+    width: 535px;
+    border: 1px solid #e3e3e3;
+    position: absolute;
+    top: 115px;
+    left: 80px;
+}
+
+.linha-horizontal3 {
+    width: 535px;
+    border: 1px solid #e3e3e3;
+    position: absolute;
+    top: 165px;
+    left: 80px;
+}
+
+.linha-horizontal2 {
+    width: 535px;
+    border: 1px solid #e3e3e3;
+    position: absolute;
+    top: 215px;
+    left: 80px;
+}
+
+.linha-horizontal1 {
+    width: 535px;
+    border: 1px solid #e3e3e3;
+    position: absolute;
+    top: 265px;
+    left: 80px;
+}
+
+.promo-mais {
+    position: relative;
+    border: 1px solid #e3e3e3;
+    height: 250px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 6px -3px black;
+}
+
+.promo-mais2{
+    position:absolute;
+    color: grey;
+    top: 40px;
+    left: 250px;
+}
+
+.taxa, .promo-de-seg, .promo-de-ter {
+    color: black;
+    position: absolute;
+    left: 285px;
+}
+
+.taxa {
+    top: 80px;
+}
+
+.promo-de-seg {
+    top: 130px;
+}
+
+.promo-de-ter {
+    top: 180px;
+}
+
+.taxa2, .promo-de-seg2, .promo-de-ter2 {
+    color: grey;
+    position: absolute;
+    left: 510px;
+}
+
+.taxa2 {
+    top: 80px;
+}
+
+.promo-de-seg2 {
+    top: 130px;
+}
+
+.promo-de-ter2 {
+    top: 180px;
+}
+
+.prod-serv {
+    width: 25%;
+}
+
+.produtos {
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 409px;
+    height: 480px;
+    box-shadow: 0px 1px 4px -3px black;
+
+}
+
+.grandona {
+    display: flex;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.produtos1 {
+    color: grey;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.servicos {
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+    box-shadow: 0px 1px 4px -3px black;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 180px;
+}
+
+.servicos2 {
+    color: grey;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.servicos3 {
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+    box-shadow: 0px 1px 1px -3px black;
+    width: 360px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.servicos4 {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+
+.servicos5 {
+    position: absolute;
+    margin-top: 19px;
+    margin-left: 8px;
+    color: grey;
+
+}
